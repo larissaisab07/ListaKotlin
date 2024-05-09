@@ -1,0 +1,22 @@
+class ContaCorrente (val NumeroDaConta: Int, val Saldo: Double){
+ 
+    fun depositar(valor: Double){
+        Saldo = Saldo + valor
+    }
+    
+    fun sacar(valor: Double){
+        if(valor > Saldo){
+            println("O saque não foi aprovado")
+        }else{
+            Saldo = Saldo - valor
+        }
+    }
+    
+    fun imprimir(){
+        println("Número da conta: $NumeroDaConta\nSaldo: $Saldo")
+    }
+  }
+    fun main(){
+        val conta1 = ContaCorrente (1, 600.0)
+        conta1.imprimir()
+    }
