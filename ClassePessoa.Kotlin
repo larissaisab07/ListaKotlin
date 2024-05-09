@@ -1,0 +1,10 @@
+class Pessoa (val nome: String, val Idade: Int, val altura: Double){
+  fun imprimir (){
+      println ("Nome:$nome\nIdade: $Idade\nAltura: $altura")
+  }
+}
+fun main(){
+    var Larissa = Pessoa ("Larissa", 17, 1.62)
+    Larissa.imprimir()
+   
+}
