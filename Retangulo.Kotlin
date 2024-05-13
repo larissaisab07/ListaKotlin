@@ -1,0 +1,21 @@
+class Retangulo (var base: Double, var altura: Double) {
+    
+}
+
+fun calcukarAltura (altura: Double) {
+    this.altura = altura
+}
+  fun calcularArea(): Double {
+    return base * altura
+  }  
+  
+  fun calcularPerimetro(): Double {
+      return 2 * (base + altura)
+   }
+  
+}
+ 
+ fun main() {
+ val Retangulo = Retangulo(5.0,3.0)
+ 
+ }
