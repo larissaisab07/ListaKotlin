@@ -1,0 +1,8 @@
+class Circulo(var raio: Double) {
+
+fun main() {
+    val circulo = Circulo(4.0)
+
+   ("Área do círculo: ${circulo.calcularArea()}")
+   ("Perímetro do círculo: ${circulo.calcularPerimetro()}")
+}
