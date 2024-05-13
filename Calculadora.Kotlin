@@ -20,9 +20,4 @@ class Calculadora {
 fun main () {
 val Calculadora = Calculadora ()
 
-println("Soma: " + calculadora.somar (5,3))
-println("Subtração: " + calculadora.subtrair (5,3))
-println("Multiplicação: " + calculadora.multiplicar (5,3))
-println("Divisão: " + calculadora.dividir (6,3))
-
 }
