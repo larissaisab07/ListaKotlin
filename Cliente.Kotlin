@@ -1,0 +1,6 @@
+class Cliente(var nome: String, var cpf: String, var dataNascimento: Data) {
+
+    fun DataNascimento(novaDataNascimento: Data) {
+        dataNascimento = novaDataNascimento
+    }
+}
