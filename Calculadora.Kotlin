@@ -1,0 +1,28 @@
+class Calculadora {
+    fun somar (a: Int, b: Int): Int {
+        return a + b
+    }
+    fun subtrair (a: Int, b: Int): Int {
+       return a - b 
+    }
+    fun multiplicar (a: Int, b: Int): Int {
+        return a * b
+    }
+    fun dividir (a: Int, b: Int): Int {
+        if (b == 0) {
+            throw
+   IllegalArgumentException ("Divisão por zero não é permitido.")         
+        }
+      return a / b 
+    }
+}
+
+fun main () {
+val Calculadora = Calculadora ()
+
+println("Soma: " + calculadora.somar (5,3))
+println("Subtração: " + calculadora.subtrair (5,3))
+println("Multiplicação: " + calculadora.multiplicar (5,3))
+println("Divisão: " + calculadora.dividir (6,3))
+
+}
